@@ -1,0 +1,11 @@
+print('BEM-VINDO AO ENZO APP')
+n1 = input('Insira algo: ')
+
+print('O tipo primitivo do que foi digitado é', type(n1))
+print('É alfanumérico?', n1.isalnum())
+print('É alfabético?', n1.isalpha())
+print('É numérico?', n1.isdigit())
+print('É decimal?', n1.isdecimal())
+print('Tem apenas espaços?', n1.isspace())
+print('É maiúsculo?', n1.isupper())
+print('É minúsculo?', n1.islower())
